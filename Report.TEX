@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\usepackage[backend=biber, style=alphabetic,]{biblatex}
+\addbibresource{References.bib}
+
+\title{Report}
+\author{David Saunders (910995)}
+\date{Month 2020}
+
+\begin{document}
+\maketitle
+
+\begin{abstract} 
+    Write abstract here
+\end{abstract}
+
+\tableofcontents
+
+\section{Section 1}
+
+Write section 1 here \cite{torsney2011tuner}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.35]{Test.JPG}
+    \caption{This will be a figure showcasing some of my work}
+\end{figure}
+
+
+\subsection{Subsection 1.1}
+    Write subsection 1.1 here
+
+\printbibliography
+
+\end{document}
