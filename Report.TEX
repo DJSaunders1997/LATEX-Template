@@ -2,7 +2,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 
-\usepackage[backend=biber, style=alphabetic,]{biblatex}
+% change reference style to [1], remove stupid sorting, language changed so date in ddmmyyyy
+\usepackage[backend=biber, style=numeric, sorting=none, language=australian]{biblatex}
 \addbibresource{References.bib}
 
 \title{Report}
@@ -30,7 +31,7 @@ Write section 1 here \cite{torsney2011tuner}
 
 
 \subsection{Subsection 1.1}
-    Write subsection 1.1 here
+    Write subsection 1.1 here \cite{wikiChonker}
 
 \printbibliography
 
